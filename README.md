@@ -6,7 +6,9 @@ In order to boot from this device, you need to switch jumper JP3 from 1-2 to 2-3
 To prepare drive you need to do such operation on sd-card
 
 sudo sfdisk /dev/sdx -L << EOF
+
 2M,,L
+
 EOF
 
 x is letter of your device, you check that by using lsblk
