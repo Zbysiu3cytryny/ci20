@@ -1,9 +1,9 @@
 # ci20
 files for CI20 (MIPS Creator CI20 V2)
 
-This u-boot is created to boot off sd-card drive.
-In order to boot from this device, you need to switch jumper JP3 from 1-2 to 2-3
-To prepare drive you need to do such operation on sd-card
+This u-boot is created to boot off from sd-card drive.
+In order to boot from this device, you need to switch jumper JP3 from 1-2 to 2-3 on ci20.
+To prepare drive you need to do such operation on sd-card:
 
 sudo sfdisk /dev/sdx -L << EOF
 
